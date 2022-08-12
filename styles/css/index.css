@@ -75,8 +75,8 @@ p {
 }
 .features-section .background-logo{
   position: absolute;
-  top:0px;
-  left:-50;
+  top:20;
+  left:-35;
 }
 
 .achievments-section {
@@ -96,8 +96,8 @@ p {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 800;
-  font-size: 2vw;
-  width: 45%;
+  font-size: 2.5vw;
+  width: 50;
   line-height: 5vh;
 }
 
@@ -259,7 +259,7 @@ span {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 840px) {
   .phone-mockup1{
     height: 200px;
   }
@@ -274,8 +274,8 @@ span {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
-    font-size: 4vw;
-    line-height: 2%;
+    font-size: 3vw;
+    line-height: 20px;
 
     /* identical to box height, or 133% */
   }
@@ -283,18 +283,37 @@ span {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
-    font-size: 4vw;
-    width: 45%;
-    line-height: 5vh;
+    font-size: 5vw;
+    width: 55%;
+    line-height: 40px;
+    padding-bottom: 10px;
   }
   .storie-title{
     width: 100%;
     line-height: 7vh;
     font-weight: 800;
     font-size: 5vw;
-    padding-top: 150px;
+    display: flex;
+    align-items: center;
+
     /* text-align: end; */
-    text-align: start;
+  }
+  .download-app {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 40px;
+  }
+  .fashion-tagline {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4vw;
+    line-height: 30px;
+    margin-bottom: 20px;
   }
 }
 
