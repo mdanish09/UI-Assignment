@@ -1,0 +1,302 @@
+p {
+  margin-bottom: 0;
+}
+
+.background-img {
+  background-image: url('../../assets/images/Background.png');
+  width: 100%;
+}
+
+.left-section,
+.right-section {
+  height: 100%;
+}
+
+.iphone-img {
+  margin-top: 10vh;
+  margin-left: 20%;
+}
+
+.section-2 {
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.title {
+  width: 100%;
+  line-height: 7vh;
+  font-weight: 800;
+  font-size: 3vw;
+  padding-top: 150px;
+}
+
+.get-started {
+  width: 196px;
+  height: 62px;
+  border-radius: 8px;
+  border-style: solid;
+  background-color: #8C30F5;
+  ;
+}
+
+.companies {
+  width: 89px;
+  height: 28px;
+}
+
+.section-2 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(218, 208, 208);
+  border-top: 1px solid rgb(218, 208, 208);
+}
+
+.customers-section {
+  height: 100%;
+  padding-top:40px;
+  padding-bottom:40px;
+
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.features-section {
+  height: 100%;
+  /* display: flex; */
+  background-color: #D5FAFC;
+  /* flex-direction: column; */
+  padding-top:40px;
+  padding-bottom:40px;
+  position: relative;
+}
+.features-section .background-logo{
+  position: absolute;
+  top:0px;
+  left:-50;
+}
+
+.achievments-section {
+  height: 100%;
+  padding-top:20px;
+  padding-bottom:20px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.headline-section {
+  height: 66vh;
+
+}
+
+.achieve-heading {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2vw;
+  width: 45%;
+  line-height: 5vh;
+}
+
+.download-count {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.website_title {
+  margin-left: 12px;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.features-heading {
+  margin-top: 64px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2vw;
+  line-height: 64px;
+
+  /* identical to box height, or 133% */
+  text-align: center;
+}
+
+.card-img {
+  height: 40px;
+  width: 40px;
+  align-self: center;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 2%;
+
+  /* identical to box height, or 133% */
+}
+
+.card {
+  border: none;
+}
+
+.phone-mockup {
+  background-image: url('../../assets/images/BG.png');
+}
+
+.card-headline {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+}
+
+.fashion-tagline {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5vw;
+  line-height: 54px;
+}
+
+.section-fashion {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.advertise-tagline {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3vw;
+  line-height: 64px;
+  width: 600px;
+}
+
+.section-bottom {
+  background-color: #2EC5CE;
+  ;
+}
+
+.company-card-title {
+  width: 495px;
+  font-family: 'Manrope,sans-serif';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3vw;
+  line-height: 64px;
+}
+
+.background-logo {
+  position: absolute;
+  top: 50px;
+  left: 370px;
+  width: 142px;
+  height: 120px;
+  opacity: 0.6;
+}
+
+.download-app {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5vw;
+  line-height: 60px;
+}
+
+.footer {
+  height: 100%;
+  background-color: black;
+  width: 100%;
+}
+
+.footer-links {
+  color: white;
+  margin-bottom: 16px;
+}
+
+span {
+  display: inline-block;
+  margin: 4px;
+}
+
+.copyright {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* Text / Gray 300 */
+  color: #D9DBE1;
+}
+.footer-img{
+  margin-bottom: 10%;
+  margin-left: 0;
+}
+.cover-img{
+  width: 100%;
+}
+.storie-title{
+  width: 100%;
+  line-height: 7vh;
+  font-weight: 800;
+  font-size: 3vw;
+  padding-top: 150px;
+  /* text-align: end; */
+  justify-content: start;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .phone-mockup1{
+    height: 200px;
+  }
+  .title {
+    width: 100%;
+    line-height: 4vh;
+    font-weight: 800;
+    font-size: 5vw;
+    padding-top: 150px;
+  }
+  .card-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4vw;
+    line-height: 2%;
+
+    /* identical to box height, or 133% */
+  }
+  .achieve-heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4vw;
+    width: 45%;
+    line-height: 5vh;
+  }
+  .storie-title{
+    width: 100%;
+    line-height: 7vh;
+    font-weight: 800;
+    font-size: 5vw;
+    padding-top: 150px;
+    /* text-align: end; */
+    text-align: start;
+  }
+}
+
+
+
